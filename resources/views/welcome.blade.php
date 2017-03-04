@@ -9,6 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="/css/app.css" rel="stylesheet" type="text/css">
 
         <!-- Styles -->
         <style>
@@ -77,7 +78,8 @@
                 </div>
             @endif
 
-            <div class="content">
+            <div class="content" id="app">
+                <example></example>
                 <div class="title m-b-md">
                     Laravel
                 </div>
@@ -91,5 +93,7 @@
                 </div>
             </div>
         </div>
+
+        <script src="/js/app.js" type="text/javascript" charset="utf-8" async defer></script>
     </body>
 </html>
