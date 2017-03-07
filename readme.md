@@ -15,6 +15,9 @@ A list of features upcoming to the project:
 - language switching
 - custom error pages.
 
+## Used packages
+- [laravel debugbar](https://github.com/barryvdh/laravel-debugbar)
+- [laravel medialibrary](https://github.com/spatie/laravel-medialibrary)
 
 ## License
 
