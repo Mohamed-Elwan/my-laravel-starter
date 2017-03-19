@@ -20,5 +20,4 @@ A list of features upcoming to the project:
 - [laravel medialibrary](https://github.com/spatie/laravel-medialibrary)
 
 ## License
-
-The Project and Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+The Project is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
