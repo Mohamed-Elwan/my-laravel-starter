@@ -1,7 +1,7 @@
 {
   "/js/app.js": "/js/app.js",
   "/css/app.css": "/css/app.css",
-  "resources/assets/adminlte/js/adminlte.min.js": "resources/assets/adminlte/js/adminlte.min.js",
-  "resources/assets/adminlte/css/AdminLTE.min.css": "resources/assets/adminlte/css/AdminLTE.min.css",
-  "resources/assets/adminlte/css/skins/skin-blue.min.css": "resources/assets/adminlte/css/skins/skin-blue.min.css"
+  "/adminlte/js/adminlte.min.js": "/adminlte/js/adminlte.min.js",
+  "/adminlte/css/adminlte.min.css": "/adminlte/css/adminlte.min.css",
+  "/adminlte/css/skins/skin-blue.min.css": "/adminlte/css/skins/skin-blue.min.css"
 }

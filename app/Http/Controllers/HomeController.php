@@ -16,6 +16,16 @@ class HomeController extends Controller
         $this->middleware('auth');
     }
 
+    public function test() {
+        //return  \App\User::find(1)->profile;
+        return view('test');
+
+        ////dd(\Route::getRoutes()->getByAction());
+        //
+        //$routes = \Route::getRoutes()->get();
+        //dd($routes);
+    }
+
     /**
      * Show the application dashboard.
      *

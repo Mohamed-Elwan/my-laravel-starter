@@ -13,11 +13,15 @@ const {mix} = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
     .sass('resources/assets/sass/app.scss', 'public/css')
-    .minify('resources/assets/adminlte/js/adminlte.js')
-    .minify('resources/assets/adminlte/css/AdminLTE.css')
-    .minify('resources/assets/adminlte/css/skins/skin-blue.css')
-    .copy('resources/assets/adminlte/js/adminlte.min.js', 'public/adminlte/adminlte.min.js')
-    .copy('resources/assets/adminlte/css/AdminLTE.min.css', 'public/adminlte/AdminLTE.min.css')
-    .copy('resources/assets/adminlte/css/skins/skin-blue.min.css', 'public/adminlte/skin-blue.min.css');
+    .minify('public/adminlte/js/adminlte.js')
+    .minify('public/adminlte/css/adminlte.css')
+    .minify('public/adminlte/css/skins/skin-blue.css');
+
+    // .minify('resources/assets/adminlte/js/adminlte.js')
+    // .minify('resources/assets/adminlte/css/AdminLTE.css')
+    // .minify('resources/assets/adminlte/css/skins/skin-blue.css');
+    // .copy('resources/assets/adminlte/js/adminlte.min.js', 'public/assets/adminlte/adminlte.min.js')
+    // .copy('resources/assets/adminlte/css/AdminLTE.min.css', 'public/assets/adminlte/AdminLTE.min.css')
+    // .copy('resources/assets/adminlte/css/skins/skin-blue.min.css', 'public/assets/adminlte/skin-blue.min.css');
 
 // mix.copyDirectory('resources/assets/adminlte/img', 'public/adminlte/img');
