@@ -61,6 +61,12 @@
                         </div>
                     </form>
                 </div>
+                <div class="panel-footer">
+                    {{--Admin user: <p>admin@admin.com </p> <p>Password: 123456</p>--}}
+                    Teacher user: <p>email: teacher@test.com </p> <p>Password: 123456</p>
+                    <hr>
+                    Student user: <p>student@test.com </p> <p>Password: 123456</p>
+                </div>
             </div>
         </div>
     </div>

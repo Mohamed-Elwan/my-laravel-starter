@@ -14,9 +14,13 @@ class UserController extends Controller
      */
     public function index()
     {
-        $user =  \App\User::where('id', Auth::user()->id)->with('profile')->first();
+        if(Auth::user()->is_admin) {
+            $user =  \App\User::where('id', Auth::user()->id)->with('profile')->first();
 
-        return view('users.show')->with('user',$user);
+            return view('users.show')->with('user',$user);
+        } else {
+            return redirect(route('dashboard.users.show', [Auth::user()->id]));
+        }
     }
 
     /**
@@ -48,7 +52,9 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        return view();
+        $user =  \App\User::where('id', Auth::user()->id)->with('profile')->first();
+
+        return view('users.show')->with('user',$user);
     }
 
     /**
